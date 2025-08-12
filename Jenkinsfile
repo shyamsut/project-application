@@ -1,7 +1,7 @@
 @Library("Shared") _
 pipeline{
     
-    agent { label "vinod"}
+    agent { label "shyam"}
     
     stages{
         
@@ -15,7 +15,7 @@ pipeline{
         stage("Code"){
             steps{
                script{
-                clone("https://github.com/LondheShubham153/django-notes-app.git","main")
+                clone("https://github.com/shyamsut/django-notes-app.git","main")
                }
                 
             }
