@@ -1,0 +1,6 @@
+version : "3.3"
+services :
+  web :
+     image: "shyamsuthar8824/node-app-test-new:lates"
+     ports :
+         - "8000:8000"
